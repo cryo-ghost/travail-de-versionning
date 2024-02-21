@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+    <head>
+        <title>Panier • Wireless Market</title>
+        <meta name="description" content="Votre panier">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../image/logo.png">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html" id="headerLogoLink">
+                <img src="../image/logo.png" alt="Logo" id="headerLogo">
+            </a>
+
+            <div id="headerSearchDiv">
+                <form action="recherche.php" method="get" id="headerSearch">
+                    <input type="search" name="search" id="search" maxlength="200" placeholder="Recherche ...">
+                    <input type="image" src="../image/search.png" alt="recherche" height="15" id="searchIcon">
+                </form>
+            </div>
+            
+
+            <a href="cart.html" id="headerCartLink">
+                <img src="../image/cart.png" alt="Panier" id="headerCartIcon">
+            </a>
+
+            <a href="" id="headerAccountLink">
+                <img src="../image/account.png" alt="Compte" id="headerAccountIcon">
+            </a>
+        </header>
+
+        <nav>
+            <a href="../index.html">ACCUEIL</a>
+            <a href="products.html">PRODUITS</a>
+            <a href="products.html#accessoiresTitle">ACCESSOIRES</a>
+        </nav>
+
+        <div class="cartHome">
+            <h1>Votre panier</h1>
+            <form action="nomAction.php" method="post">
+                <div class="cartProducts">
+                    Liste des produits avec JS
+                </div>
+
+                <div class="cartTotalPrice">
+                    <h2>Total</h2>
+                    <p class="totalPrice"></p>
+                    <p>€</p>
+                    <input type="submit" value="Passer la commande">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
