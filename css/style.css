@@ -671,3 +671,97 @@ footer li a:hover{
     transition: 0.25s;
 }
 
+
+
+/* CSS pour la page Produits •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+
+.productsHome {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.brandsLinks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.brandsLinks a {
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: var(--bleu2);
+    border-radius: 10px;
+}
+.brandsLinks a:hover {
+    background-color: var(--bleu1);
+    transition: 0.25s;
+}
+.brandsLinks a:active {
+    background-color: rgb(0, 80, 200);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+main {
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+main h1 {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+main article {
+    width: 25%;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+main article img {
+    min-width: 100%;
+    height: auto;
+}
+main article h2 {
+    width: 100%;
+}
+main article .productPrice {
+    width: 20%;
+}
+main article p {
+    width: 80%;
+}
+main article button {
+    width: 50%;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    background-color: var(--bleu2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main article button:hover {
+    background-color: var(--bleu1);
+    transition: 0.25s;
+}
+main article button:active {
+    background-color: rgb(0, 80, 200);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
