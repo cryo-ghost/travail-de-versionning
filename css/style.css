@@ -765,3 +765,77 @@ main article button:active {
     transform: scale(0.95);
     transition: 0.25s;
 }
+
+
+
+/* CSS pour la page Panier •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+
+.cartHome {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.cartHome h1 {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+.cartHome form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cartProducts {
+    width: 60%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.cartTotalPrice {
+    width: 25%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--bleu2);
+    border-radius: 30px;
+}
+.cartTotalPrice h2 {
+    width: 100%;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.cartTotalPrice .totalPrice {
+    width: 20%;
+}
+.cartTotalPrice p {
+    width: 80%;
+}
+.cartTotalPrice input {
+    width: 50%;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    background-color: var(--bleu1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cartTotalPrice input:hover {
+    filter: brightness(1.25);
+    transition: 0.25s;
+}
+.cartTotalPrice input:active {
+    filter: brightness(0.75);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
