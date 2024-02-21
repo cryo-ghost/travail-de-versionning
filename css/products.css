@@ -1,0 +1,245 @@
+:root {
+    --bleu1 : rgb(0, 100, 255);
+    --bleu2 : rgb(0, 0, 50);
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+/* CSS pour le header •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 100, 255, 0.85);
+}
+
+#headerLogoLink {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerLogo {
+    width: 50px;
+    height: auto;
+}
+#headerLogo:hover {
+    filter: brightness(1.5);
+    transition: 0.25s;
+}
+#headerLogo:active {
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+#headerSearchDiv {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#headerSearch {
+    height: 50%;
+    width: 50%;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(250, 250, 250, 0.8);
+    border-radius: 30px;
+}
+#headerSearch #search {
+    height: 100%;
+    width: 80%;
+    margin: 0 5% 0 5%;
+    border: none;
+    background-color: rgba(250, 250, 250, 0);
+}
+#headerSearch #searchIcon {
+    height: 15px;
+    width: auto;
+    margin: 0 5% 0 5%;
+}
+#headerSearch #searchIcon:active {
+    transform: scale(0.8);
+    transition: 0.25s;
+}
+
+#headerCartLink{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerCartIcon {
+    width: 50px;
+    height: auto;
+}
+#headerCartIcon:active {
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+#headerAccountLink {
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerAccountIcon {
+    width: 50px;
+    height: auto;
+}
+#headerAccountIcon:active {
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+nav {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 50, 0.80);
+    border-radius: 0px 0px 10px 10px;
+    backdrop-filter: blur(25px);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+nav a {
+    width: 10%;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-color: var(--bleu1);
+    transition: 0.25s;
+}
+nav a:active {
+    background-color: rgb(0, 80, 200);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+
+
+/* CSS pour la page Produits •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
+
+
+.productsHome {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.brandsLinks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.brandsLinks a {
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: var(--bleu2);
+    border-radius: 10px;
+}
+.brandsLinks a:hover {
+    background-color: var(--bleu1);
+    transition: 0.25s;
+}
+.brandsLinks a:active {
+    background-color: rgb(0, 80, 200);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
+
+main {
+    width: 100%;
+    margin: 50px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+main h1 {
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+main article {
+    width: 25%;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+main article img {
+    min-width: 100%;
+    height: auto;
+}
+main article h2 {
+    width: 100%;
+}
+main article .productPrice {
+    width: 20%;
+}
+main article p {
+    width: 80%;
+}
+main article button {
+    width: 50%;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    background-color: var(--bleu2);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main article button:hover {
+    background-color: var(--bleu1);
+    transition: 0.25s;
+}
+main article button:active {
+    background-color: rgb(0, 80, 200);
+    transform: scale(0.95);
+    transition: 0.25s;
+}
