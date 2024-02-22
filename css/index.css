@@ -212,7 +212,101 @@ body {
     background: blue;
 }
 
+@media screen and (max-width: 900px){
+    .container{
+        width: 768px;
+        height: 224px;
+    }
+    
+    .slideImage{
+        width: 768px;
+        height: 224px;
+    
+    }
 
+    .item-1{
+        height: 224px;
+        width: 50px;
+    }
+    
+    .item-2{
+        height: 224px;
+        width: 50px;
+    }
+    
+    .carousel{
+        height: 224px;
+    }
+
+    .slider{
+        height: 224px;
+    }
+
+    .slider section{
+        height: 224px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 345px;
+        height: 100px;
+    }
+    
+    .slideImage{
+        width: 345px;
+        height: 100px;
+    
+    }
+
+    .item-1{
+        height: 100px;
+        width: 50px;
+    }
+    
+    .item-2{
+        height: 100px;
+        width: 50px;
+    }
+    
+    .carousel{
+        height: 100px;
+    }
+
+    .slider{
+        height: 100px;
+    }
+
+    .slider section{
+        height: 100px;
+    }
+    
+    
+    .item-1 .arrow a{
+        color: blue;
+    }
+    
+    .item-2 .arrow a{
+        color: blue;
+    }
+    
+    .arrow.left{
+        background: transparent;
+    }
+
+    .arrow.left:hover{
+        background: transparent;
+    }
+    
+    .arrow.right{
+        background: transparent;
+    
+    }
+
+    .arrow.right:hover{
+        background: transparent;
+    }
+}
 
 main {
     margin: 20px 0px 20px 0px;
@@ -322,7 +416,70 @@ main .brand-img:hover{
     transition: 0.25s;
 }
 
+@media screen and (max-width: 900px){
 
+    main .news {
+        justify-content: center;
+    }
+
+    main section h2 {
+        text-align: center;
+    }
+    
+    main article {
+        width: 200px;
+        margin: 30px;
+    }
+    
+    main .product-title {
+        margin: 0px 30px 0px 30px;
+        font-size: 10px;
+    }
+    
+    main a {
+        font-size: 11px;
+    }
+    
+    main .brands {
+        flex-wrap: wrap;
+    }
+    
+    main .brand-img{
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+    main .news {
+        justify-content: center;
+    }
+
+    main section h2 {
+        text-align: center;
+    }
+
+    main article {
+        width: 200px;
+    }
+    
+    main .product-title {
+        margin: 0px 50px 0px 50px;
+    }
+    
+    main a {
+        font-size: 8px;
+    }
+    
+    main .brands {
+        flex-wrap: wrap;
+
+    }
+    
+    main .brand-img{
+        height: 50px;
+    }
+}
 
 /* CSS pour la Newsletter •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
@@ -406,4 +563,20 @@ aside a {
     margin: 0px 10px 0px 10px;
     color: #6c6c6c;
     font-size: 12px;
+}
+
+@media screen and (max-width: 900px){
+    aside span{
+        width: 700px;
+    }
+    
+    aside a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    aside #email{
+        width: 170px;
+    }
 }

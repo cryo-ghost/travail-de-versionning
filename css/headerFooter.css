@@ -286,3 +286,66 @@ footer li a:hover{
     text-decoration: underline;
     transition: 0.25s;
 }
+
+@media screen and (max-width: 900px){
+    footer section .desc{
+        font-size: 9px;
+    }
+
+    footer section .logo-end{
+        height: 30px;
+    }
+
+    footer a .res{
+        height: 20px;
+    }
+
+    footer span p{
+        font-size: 10px;
+    }
+    
+    footer span a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    footer {
+        background-color: #000032;
+        width: 100%;
+    }
+    
+    footer section .desc{
+        margin: 0px 0px 0px 10px;
+        font-size: 8px;
+    }
+    
+    footer section .logo-end{
+        height: 30px;
+        margin: 0px 10px 0px 0px;
+    }
+    
+    footer div .social{
+        font-size: 8px;
+    }
+    
+    footer a .res{
+        height: 15px;
+    }
+    
+    footer span p{
+        font-size: 8px;
+    }
+    
+    footer span a{
+        font-size: 8px;
+    }
+    
+    footer li a{
+        font-size: 10px;
+    }
+    
+    footer li p {
+        font-size: 10px;
+    }
+}
