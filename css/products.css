@@ -19,10 +19,6 @@ body {
 
 
 
-
-
-
-
 /* CSS pour la page Produits •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
 
@@ -115,11 +111,24 @@ main article button:active {
     transform: scale(0.95);
     transition: 0.25s;
 }
+@media screen and (max-width:800px) {
+    main {
+        justify-content: center;
+    }
+    main article {
+        width: 85%;
+    }
+    main article .productPrice {
+        width: 25%;
+    }
+    main article p {
+        width: 75%;
+    }
+}
 
 
 
 /* CSS pour la Newsletter •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
-
 
 
 aside {
@@ -202,4 +211,20 @@ aside a {
     margin: 0px 10px 0px 10px;
     color: #6c6c6c;
     font-size: 12px;
+}
+
+@media screen and (max-width: 900px){
+    aside span{
+        width: 700px;
+    }
+    
+    aside a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    aside #email{
+        width: 170px;
+    }
 }
