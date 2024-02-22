@@ -19,10 +19,6 @@ body {
 
 
 
-
-
-
-
 /* CSS pour la page Produits •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 
 
@@ -115,11 +111,24 @@ main article button:active {
     transform: scale(0.95);
     transition: 0.25s;
 }
+@media screen and (max-width:800px) {
+    main {
+        justify-content: center;
+    }
+    main article {
+        width: 85%;
+    }
+    main article .productPrice {
+        width: 25%;
+    }
+    main article p {
+        width: 75%;
+    }
+}
 
 
 
 /* CSS pour la Newsletter •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
-
 
 
 aside {

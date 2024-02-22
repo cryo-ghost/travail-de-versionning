@@ -63,6 +63,15 @@ header {
     transform: scale(0.8);
     transition: 0.25s;
 }
+@media screen and (max-width:800px) {
+    #headerSearchDiv {
+        width: 50%;
+        justify-content: center;
+    }
+    #headerSearch {
+        width: 80%;
+    }
+}
 
 #headerCartLink{
     width: 5%;
@@ -92,6 +101,14 @@ header {
 #headerAccountIcon:active {
     transform: scale(0.95);
     transition: 0.25s;
+}
+@media screen and (max-width:800px) {
+    #headerCartLink{
+        width: 10%;
+    }
+    #headerAccountLink {
+        width: 10%;
+    }
 }
 
 nav {
@@ -127,11 +144,16 @@ nav a:active {
     transform: scale(0.95);
     transition: 0.25s;
 }
+@media screen and (max-width:800px) {
+    nav a {
+        width: 20%;
+        padding: 10px 1px 10px 1px;
+    }
+}
+
 
 
 /* CSS pour le footer •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
-
-
 
 
 footer {
