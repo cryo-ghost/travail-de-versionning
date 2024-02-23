@@ -1,0 +1,13 @@
+Nous avons fait un premier commit pour ajoutez le static.html pour deployer et configurer des pages.
+Nous avons ensuite fait un autre commit pour ajoutez le logo, des fichier css, html et java avec une parti du projet à l'interieur.
+Ensuite nous avons update le fichier readme pour y ajoutez la description du projet.
+Nous avons fait un commit pour ajoutez le header sur la index.html et du css
+Nous avons fait un commit pour ajoutez le corps de la page et les images sur la index.html et du css
+Nous avons fait un commit pour ajoutez la page produit sur la index.html et du css
+Nous avons fait un commit pour ajoutez le header sur la cart.html et du css
+Nous aussi avons corrigé des bugs
+
+pour creer une nouvelle fonctionalitée il faut creer une nouvelle branche ajouter les fichier contenant la fonctionalité sur github ensuite nous créons un commit avec une description nous créons une pull request pour confimer le merge entre la branche concerné et la principal qui doit ensuite etre accepeter par les autres membres du projet.
+Pour soumettre il faut creer une nouvelle branche et modifier les fichier concerné ensuite nous créons un commit avec une description nous créons une pull request pour confimer le merge entre la branche concerné et la principal qui doit ensuite etre accepeter par les autres membres du projet.
+
+pour effectuer une revue du code il faut selectionner un fichier et ensuite nous pouvons voir le code et donc verifier la présence d'éventuel erreur.

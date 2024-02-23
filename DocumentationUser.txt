@@ -1,0 +1,2 @@
+Sur notre site les utilisateurs peuvent voir les offres du momment, les different article proposés il epuvent aussi filtrer les articles en fonction de la marque ou leur categorie, et ajoutez la aquantité d'article souhaitez dans le panier et ensuite voir le total, il peuvent auusi s'abonner à une newsletter.
+Le site est également responsive
