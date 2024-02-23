@@ -1,6 +1,12 @@
 Présentation du projet :
 Nous sommes chargés de la création du site Wireless Market, un site de vente de smartphone haut de gamme et d'accessoires de qualité.
 
+Répartition des tâches :
+- Designer et Intégrateur Frontend : HUANG Edric / HOUSNI Naïm
+- Développeur JavaScript : HUANG Edric / HOUSNI Naïm
+- Responsable Git/GitHub : BOURICH Théo
+- Responsable CI/CD : DUPILLE Benjamin
+
 Structure du site : 3 pages au total.
 -	Une page d'accueil avec les informations essentielles.
 -	Une page produits qui contient tous les produits répertoriés dans le site.
